@@ -1,0 +1,16 @@
+# cd
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# ls
+alias l='gls $LS_OPTIONS'
+alias ls='gls $LS_OPTIONS'
+alias ll='gls $LS_OPTIONS -l'
+alias la='gls $LS_OPTIONS -la'
+
+# git
+alias gs='git status -sb'
+alias gd='git diff'
+alias gl='git log -n 5'
+alias gb='git branch'
