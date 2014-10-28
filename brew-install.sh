@@ -80,6 +80,7 @@ brew install java
 brew install leiningen
 brew install rbenv
 brew install ruby-build
+brew install htop-osx
 
 #brew install homebrew/versions/lua52
 
