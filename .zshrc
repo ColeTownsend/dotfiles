@@ -15,7 +15,20 @@ e() { emacs -nw "${1:-.}"; }
 
 # prompt
 autoload -U colors && colors
-PROMPT=$'\n%F{red}%B%n%b%f %F{yellow}@%f %B%m%b %F{black_bright}(%0~)%f\n%F{yellow}λ%f ' # TODO: git prompt
+autoload -Uz vcs_info
+
+zstyle ':vcs_info:*' enable git
+precmd() { vcs_info }
+setopt prompt_subst
+
+zstyle ':vcs_info:*' check-for-changes true
+zstyle ':vcs_info:*' stagedstr     '%F{green}$%f '
+zstyle ':vcs_info:*' unstagedstr   '%F{yellow}•%f '
+zstyle ':vcs_info:*' formats       '%c%u%b%m '
+zstyle ':vcs_info:*' actionformats '%c%u%b%m %B%s-%a%%b '
+zstyle ':vcs_info:git*+set-message:*' hooks git-untracked git-aheadbehind git-remotebranch
+
+PROMPT=$'\n%F{red}%B%n%b%f %F{yellow}@%f %B%m%b %F{black_bright}(%0~)%f ${vcs_info_msg_0_}\n%F{yellow}λ%f '
 
 # zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
