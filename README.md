@@ -1,4 +1,6 @@
-* TODO: emacs: Install emacs-live
-* TODO: emacs: Non-buggy solarized-pack for emacs-live
-* TODO: zsh: Colors in vcs_info
-* TODO: iTerm2: Install profile shortcut keys 
+**TODO's**
+* emacs-live
+* solarized-pack for emacs-live
+* colors in vcs_info
+* install iTerm2 shortcut keys .plist 
+* fix copy paste in emacs
