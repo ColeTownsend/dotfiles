@@ -29,6 +29,9 @@ setopt HIST_REDUCE_BLANKS
 #   like: git comm-[tab]
 setopt complete_aliases
 
+# matches case insensitive for lowercase
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 # add solarized dircolors
 eval `gdircolors ~/.dircolors.solarized-dark-256`
 
