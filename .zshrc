@@ -10,9 +10,6 @@ compinit
 # add solarized dircolors
 eval `gdircolors ~/.dircolors.solarized-dark-256`
 
-# editor
-e() { emacs -nw "${1:-.}"; }
-
 # prompt
 autoload -U colors && colors
 autoload -Uz vcs_info
