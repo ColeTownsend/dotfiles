@@ -146,22 +146,6 @@ sudo chflags uchg /Private/var/vm/sleepimage
 sudo pmset -a sms 0
 
 ###############################################################################
-# Application layer firewall                                                  #
-###############################################################################
-
-# Enable ALF
-defaults write /Library/Preferences/com.apple.alf globalstate -int 1
-
-# Allow signed apps
-defaults write /Library/Preferences/com.apple.alf allowsignedenabled -bool true
-
-# Enable logging
-defaults write /Library/Preferences/com.apple.alf loggingenabled -bool true
-
-# Enable stealth mode
-defaults write /Library/Preferences/com.apple.alf stealthenabled -bool true
-
-###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
