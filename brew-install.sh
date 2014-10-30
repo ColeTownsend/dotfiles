@@ -76,7 +76,6 @@ brew install zopfli
 brew install git
 brew install git-extras
 brew install git-flow
-brew install java
 brew install leiningen
 brew install rbenv
 brew install ruby-build
