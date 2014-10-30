@@ -19,6 +19,3 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Always enable colored `ls` output
 export LS_OPTIONS='--color=auto'
-
-# Make rbenv use Homebrew's directories
-export RBENV_ROOT=/usr/local/var/rbenv
