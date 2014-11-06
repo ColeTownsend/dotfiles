@@ -17,6 +17,7 @@ brew cask install vlc 2> /dev/null
 brew cask install alfred 2> /dev/null
 brew cask install day-o 2> /dev/null
 brew cask install java 2> /dev/null
+brew cask install flash 2> /dev/null
 
 # Add Cask to Alfred search scope
 brew cask alfred link
