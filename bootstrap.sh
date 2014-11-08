@@ -5,10 +5,16 @@ cd "$(dirname "${BASH_SOURCE}")";
 git pull origin master;
 
 function doIt() {
-    rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
-          --exclude "brew-install.sh" --exclude "cask-install.sh" \
-          --exclude "bin/" --exclude "init/" \
-	  --exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
+    rsync --exclude ".git/"\
+          --exclude ".DS_Store"\
+          --exclude "bootstrap.sh"\
+          --exclude "brew-install.sh"\
+          --exclude "cask-install.sh"\
+          --exclude "init/"\
+          --exclude "README.md"\
+          --exclude "LICENSE-MIT.txt"\
+          -avh\
+          --no-perms . ~;
 
     zsh ~/.zshrc;
 }
