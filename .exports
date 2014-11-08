@@ -19,3 +19,6 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
 # Always enable colored `ls` output
 export LS_OPTIONS='--color=auto'
+
+# Add bin/ to $PATH
+export PATH=~/bin:$PATH
