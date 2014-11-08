@@ -13,6 +13,7 @@ function doIt() {
           --exclude "init/"\
           --exclude "README.md"\
           --exclude "LICENSE-MIT.txt"\
+          --exclude ".gitconfig.example"\
           -avh\
           --no-perms . ~;
 
