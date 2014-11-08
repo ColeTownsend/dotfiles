@@ -1,2 +1,2 @@
 # editor
-e() { emacs -nw "${1:-.}"; }
+e() { emacsclient -t "${1:-.}"; }
