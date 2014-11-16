@@ -75,7 +75,7 @@ brew install webkit2png
 brew install zopfli
 brew install git
 brew install git-extras
-brew install git-flow
+brew install git-flow-avh
 brew install leiningen
 brew install rbenv
 brew install ruby-build
