@@ -10,3 +10,4 @@
 ;; Load custom packs
 (live-add-packs '(~/.live-packs/install-packages-pack))
 (live-add-packs '(~/.live-packs/aaa-pack))
+(live-add-packs '(~/.live-packs/ruby-pack))
