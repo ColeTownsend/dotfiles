@@ -23,3 +23,6 @@ export LS_OPTIONS='--color=auto';
 
 # Add bin/ to $PATH
 export PATH=~/bin:$PATH;
+
+# Disable guard notifications
+export GUARD_NOTIFY=false;
