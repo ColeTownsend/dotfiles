@@ -10,6 +10,7 @@ function doIt() {
           --exclude "bootstrap.sh"\
           --exclude "brew-install.sh"\
           --exclude "cask-install.sh"\
+          --exclude "font-install.sh"\
           --exclude "init/"\
           --exclude "README.md"\
           --exclude "LICENSE-MIT.txt"\
