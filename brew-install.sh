@@ -81,6 +81,7 @@ brew install rbenv
 brew install ruby-build
 brew install htop-osx
 brew install privoxy
+brew install tmux
 
 #brew install homebrew/versions/lua52
 
