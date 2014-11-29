@@ -82,6 +82,7 @@ brew install ruby-build
 brew install htop-osx
 brew install privoxy
 brew install tmux
+brew install reattach-to-user-namespace
 
 #brew install homebrew/versions/lua52
 
