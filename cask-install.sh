@@ -4,6 +4,7 @@
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
+brew cask install github
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install imagealpha
@@ -24,5 +25,10 @@ brew cask install transmit
 brew cask install java
 brew cask install flash
 brew cask install sublime-text
+
+# random design tools
+brew cask install glueprint
+brew cask install cactus
+brew cask install glueprint
 # Add Cask to Alfred search scope
 brew cask alfred link
