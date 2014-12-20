@@ -16,6 +16,7 @@ brew cask install alfred
 brew cask install macdown
 brew cask install quickcast
 brew cask install monotype-skyfonts
+brew cask install google-drive
 brew cask install transmit
 brew cask install codekit
 brew cask install caffeine
