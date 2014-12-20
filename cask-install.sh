@@ -22,7 +22,6 @@ brew cask install google-drive
 brew cask install caffeine
 brew cask install java
 brew cask install flash
-brew cask install sublime-text
 brew cask install mailbox
 brew cask install eve
 brew cask install whiskey
@@ -33,6 +32,8 @@ brew cask install plug
 brew cask install mamp
 brew cask install codekit
 brew cask install transmit
+brew cask install integrity
+brew cask install sublime-text
 
 # random design tools
 brew cask install glueprint
