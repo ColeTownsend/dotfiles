@@ -19,16 +19,25 @@ brew cask install quickcast
 brew cask install monotype-skyfonts
 brew cask install google-drive
 brew cask install transmit
-brew cask install codekit
 brew cask install caffeine
-brew cask install transmit
 brew cask install java
 brew cask install flash
 brew cask install sublime-text
+brew cask install mailbox
+
+# dev specific tools
+brew cask install mamp
+brew cask install codekit
+brew cask install trasnmit
 
 # random design tools
 brew cask install glueprint
 brew cask install cactus
 brew cask install glueprint
+brew cask install flux
+brew cask install inboard
+brew cask install sketch-toolbox
+brew cask install fileshuttle
+
 # Add Cask to Alfred search scope
 brew cask alfred link
