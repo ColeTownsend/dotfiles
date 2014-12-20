@@ -6,6 +6,7 @@ brew tap caskroom/versions
 
 brew cask install github
 brew cask install dropbox
+brew cask install slack
 brew cask install google-chrome
 brew cask install imagealpha
 brew cask install imageoptim
@@ -26,14 +27,18 @@ brew cask install mailbox
 brew cask install eve
 brew cask install whiskey
 brew cask install coconutbattery
+brew cask install plug
 
 # dev specific tools
 brew cask install mamp
 brew cask install codekit
-brew cask install trasnmit
+brew cask install transmit
 
 # random design tools
 brew cask install glueprint
+brew cask install pixel-winch
+brew cask install dash
+brew cask install gifrocket
 brew cask install cactus
 brew cask install glueprint
 brew cask install flux
